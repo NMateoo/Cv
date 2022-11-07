@@ -9,95 +9,24 @@ fecha: 06/10/2022 -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cv Nicolás Mateo</title>
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            background-color: rgb(233, 233, 233);
-            color: rgb(0, 0, 100);
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
-
-        header {
-            margin: 10px;
-            border: 2px solid rgb(0, 0, 100);
-            width: 50vw;
-        }
-
-        article {
-            border: 2px solid rgb(0, 0, 100);
-            margin: 10px;
-            padding: 15px;
-        }
-
-        footer {
-            text-align: center;
-            width: 40vw;
-            border: 2px solid rgb(0, 0, 100);
-            margin-left: 10px;
-            padding: 15px;
-        }
-
-        h1 {
-            text-align: center;
-            font-size: 36px;
-            color: rgb(0, 0, 100);
-        }
-
-        h2 {
-            font-size: 20px;
-            border-bottom: 2px solid rgb(0, 0, 100);
-            margin-bottom: 3px;
-            width: 16vw;
-        }
-
-        img {
-            width: 15vw;
-            height: 30vh;
-            border-radius: 50%;
-            border: 2px solid rgb(0, 0, 100);
-            margin-left: 10px;
-        }
-
-        ol, ul {
-            list-style: none;
-            margin-left: 10px;
-        }
-
-        footer {
-            display: inline-block;
-            margin-bottom: 10px;
-        }
-
-        mark {
-            background: red;
-            color: white;
-        }
-
-        span {
-            color: rgb(0, 0, 0);
-            font-weight: bold;
-        }
-
-    </style>
+    <link rel="stylesheet" href="cv-style.css">
 </head>
 
 <body>
-
-    <header>
-        <h1>
-            Cv <span>Nicolás Mateo Macías</span>
-        </h1>
-    </header>
+    <div class="header">
+        <header>
+            <img src="Tomás-Alonso-1-800x600.webp" alt="Persona sonriendo">
+            <h1>
+                Cv <span>Nicolás Mateo Macías</span>
+            </h1>
+            
+        </header>
+    </div>
 
     <section>
-        <img src="Tomás-Alonso-1-800x600.webp" alt="Persona sonriendo">
+        
 
-        <article>
+        <article id="sobreMi">
             <h2>
                 Sobre mí
             </h2>
@@ -161,10 +90,12 @@ fecha: 06/10/2022 -->
             </ul>
         </article>
     </section>
-    <footer>
-        <mark>Nicolás Mateo Macías</mark>
-        <p><span>Contacto:</span> correo@correo.com</p>
-    </footer>
+    <div>
+        <footer>
+            <mark>Nicolás Mateo Macías</mark>
+            <p><span>Contacto:</span> correo@correo.com</p>
+        </footer>
+    </div>
 
 </body>
 
